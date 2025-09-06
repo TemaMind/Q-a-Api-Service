@@ -84,8 +84,8 @@ GET /answers/{id}/ — получить конкретный ответ
 
 DELETE /answers/{id}/ — удалить ответ
 
-🧪 Примеры запросов
-Bash / Git Bash 
+**Примеры запросов**
+
 # создать вопрос
 curl -X POST http://localhost:8000/questions/ \
   -H 'Content-Type: application/json' \
