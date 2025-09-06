@@ -1,0 +1,41 @@
+# Virtualenv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django/DRF
+*.sqlite3
+db.sqlite3
+dev.sqlite3
+test.sqlite3
+media/
+staticfiles/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Tests/Coverage
+.pytest_cache/
+.coverage*
+htmlcov/
+coverage.xml
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+pgdata/
+
+# Archives
+*.zip
+*.tar.gz
